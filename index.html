@@ -3,15 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IAN x VivaTech - Réservez votre démo</title>
+
+    <!-- Font + Icônes -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-    <title>IAN x VivaTech - Réservez votre démo</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Style -->
     <style>
       body {
         margin: 0;
@@ -25,76 +29,15 @@
         padding: 80px 20px 40px;
       }
 
-      .hero h1 {
+      .hero h1,
+      .hero h2 {
         font-size: 3em;
-        margin: 0;
+        margin: 0 0 15px;
       }
 
       .hero p {
         font-size: 1.2em;
         margin: 15px 0 30px;
-      }
-
-      .cta {
-        display: inline-block;
-        background: white;
-        color: #7d00d7;
-        padding: 15px 30px;
-        border-radius: 40px;
-        font-weight: bold;
-        text-decoration: none;
-        transition: all 0.3s ease;
-      }
-
-      .cta:hover {
-        background: #e300a8;
-        color: white;
-      }
-
-      .dashboard img {
-        width: 90%;
-        max-width: 900px;
-        border-radius: 20px;
-        margin: 40px auto;
-        box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
-      }
-
-      .features {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-        padding: 40px 20px;
-      }
-
-      .feature {
-        background: rgba(255, 255, 255, 0.1);
-        padding: 20px;
-        border-radius: 20px;
-        width: 250px;
-        text-align: center;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-      }
-
-      .feature h3 {
-        font-size: 1.2em;
-        margin-bottom: 10px;
-      }
-
-      footer {
-        padding: 20px;
-        font-size: 0.9em;
-        background: rgba(0, 0, 0, 0.3);
-      }
-
-      @media (max-width: 600px) {
-        .hero h1 {
-          font-size: 2em;
-        }
-
-        .features {
-          flex-direction: column;
-        }
       }
 
       .cta {
@@ -110,6 +53,7 @@
         animation: pulse 2s infinite;
         transition: all 0.3s ease-in-out;
       }
+
       .cta:hover {
         background: #e300a8;
         color: #ffffff;
@@ -127,6 +71,49 @@
           box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
         }
       }
+
+      .features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 40px 20px;
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+
+      .feature {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        border-radius: 20px;
+        width: 250px;
+        text-align: center;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        margin: 0 auto;
+      }
+
+      .feature h3 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+      }
+
+      footer {
+        padding: 20px;
+        font-size: 0.9em;
+        background: rgba(0, 0, 0, 0.3);
+      }
+
+      @media (max-width: 600px) {
+        .hero h1,
+        .hero h2 {
+          font-size: 2em;
+        }
+
+        .features {
+          flex-direction: column;
+        }
+      }
     </style>
   </head>
   <body>
@@ -136,7 +123,7 @@
         Réservez votre démo exclusive maintenant<br />Ne manquez pas cette
         opportunité !
       </p>
-      <a href="https://calendly.com/toncalendly/demo" class="cta">
+      <a href="https://calendly.com/elcalink-normes" class="cta">
         Réservez votre démo – Places limitées !
       </a>
     </div>
@@ -151,11 +138,11 @@
         box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
       "
     >
-      <h2 style="color: #ffffff">
+      <h2>
         <i class="fas fa-robot"></i> IAN, votre copilote IA pour la conformité
         QSE/RSE
       </h2>
-      <p style="font-size: 1.1em; color: #ffffff; line-height: 1.6">
+      <p style="font-size: 1.1em; line-height: 1.6">
         <strong>IAN</strong> est une IA spécialisée dans la conformité QSE/RSE
         pour les <strong>PME/TPE industrielles</strong>, accessible via une
         plateforme SaaS. Elle :
@@ -163,7 +150,6 @@
       <ul
         style="
           text-align: left;
-          color: #ffffff;
           font-size: 1em;
           line-height: 1.7;
           max-width: 800px;
@@ -197,7 +183,7 @@
           pour garantir une conformité continue.
         </li>
       </ul>
-      <p style="font-size: 1.1em; color: #ffffff">
+      <p style="font-size: 1.1em">
         <strong>Grâce à IAN</strong>, les entreprises réduisent le
         <strong>temps</strong> et les <strong>coûts</strong> liés aux démarches
         QSE/RSE tout en sécurisant leur <strong>conformité</strong> et
@@ -230,9 +216,9 @@
 
     <div class="hero">
       <h2>Ne ratez pas votre créneau VivaTech</h2>
-      <a href="https://calendly.com/toncalendly/demo" class="cta">
-        Réserver maintenant</a
-      >
+      <a href="https://calendly.com/elcalink-normes" class="cta">
+        Réserver maintenant
+      </a>
     </div>
 
     <footer>© 2025 IAN - Tous droits réservés | VivaTech Edition</footer>
